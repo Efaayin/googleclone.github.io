@@ -195,8 +195,8 @@ main .langs .g-lang {
 /* FOOTER STYLES */
 
 footer {
-    position: absolute;
-    bottom: 0;
+/*     position: absolute;
+    bottom: 0; */
     width: 100%;
     background-color: #f2f2f2;
     line-height: 40px;
