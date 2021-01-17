@@ -18,15 +18,15 @@ a:hover {
     text-decoration: underline;
 }
 
-body {
+/* body {
     position: relative;
+} */
+
+.container {
+    position: relative;
+    height: 100vh;
 }
 
-/* .container {
-    position: relative;
-    min-height: 100vh;
-}
- */
 
 /* HEADER STYLES */
 
@@ -79,9 +79,11 @@ header nav ul .sign-in a:hover {
 /* MAIN */
 
 main {
+    position: absolute;
+    top: 25%;
     width: 100%;
     padding: 0;
-    padding-bottom: 5rem;
+/*     padding-bottom: 5rem; */
     margin: 0;
     /* border: 1px solid blue; */
 }
