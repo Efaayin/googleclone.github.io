@@ -78,7 +78,7 @@ main {
     position: absolute;
     top: 25%;
     width: 100%;
-    padding: 0;
+    padding: 0 0 5rem 0;
     margin: 0;
     /* border: 1px solid blue; */
 }
@@ -200,7 +200,7 @@ footer {
     font-size: 15px;
     color: rgba(0, 0, 0, .54);
     border-top: 1px solid #DADCE0;
-
+    height: 5rem;
 }
 
 footer p {
@@ -239,15 +239,19 @@ footer .footer-nav ul li:not(:first-child) {
 /* MEDIA QUERIES */
 
 @media (max-width: 650px) {
-    footer .footer-nav ul {
-        display: flex;
-        flex-flow: nowrap column-reverse;
-        align-items: center;
-    }
-
     main .clickable {
         font-size: 12px;
         padding: 0 16px;
         min-width: 95px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    footer .footer-nav ul {
+        display: flex;
+        flex-flow: nowrap column-reverse;
+        align-items: center;
     }
 }
