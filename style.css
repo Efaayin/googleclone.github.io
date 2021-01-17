@@ -75,8 +75,6 @@ header nav ul .sign-in a:hover {
 /* MAIN */
 
 main {
-    position: absolute;
-/*     top: 25%; */
     width: 100%;
     padding: 0;
     padding-bottom: 5rem;
