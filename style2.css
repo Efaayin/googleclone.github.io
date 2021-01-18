@@ -301,6 +301,10 @@ footer .footer-nav ul li:not(:first-child) {
         min-width: 10rem;
     }
     
+    main .clickables {
+        display: none;
+    }
+    
     main .clickable {
         font-size: 12px;
         padding: 0 13px;
