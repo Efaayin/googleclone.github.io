@@ -271,3 +271,13 @@ footer .footer-nav ul li:not(:first-child) {
         align-items: center;
     }
 }
+
+@media (max-width: 600px) {
+    main .search-field__enclosure {
+        width: 400px;
+    }
+    
+    main .logo img {
+        min-width: 14rem;
+    }
+}
