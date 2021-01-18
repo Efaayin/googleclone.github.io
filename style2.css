@@ -305,17 +305,14 @@ footer .footer-nav ul li:not(:first-child) {
         display: none;
     }
     
-    main .clickable {
-        font-size: 12px;
-        padding: 0 13px;
-        height: 36px;
-        min-width: 50px;
+    main .search-field__enclosure {
+        margin-bottom: 20px;
     }
-
+    
     main .langs {
         width: fit-content;
         margin: 0 auto;
-        font-size: small;
+        font-size: 2rem;
         /* border: 1px solid black; */
     }
 }
