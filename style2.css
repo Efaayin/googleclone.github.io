@@ -312,7 +312,11 @@ footer .footer-nav ul li:not(:first-child) {
     main .langs {
         width: fit-content;
         margin: 0 auto;
-        font-size: .8rem;
+        font-size: .7rem;
         /* border: 1px solid black; */
+    }
+    
+    .footer-spacer {
+        height: 80px;
     }
 }
