@@ -198,6 +198,11 @@ main .langs .g-lang {
 
 
 /* FOOTER STYLES */
+.footer-spacer {
+    display: block;
+    height: 105px;
+}
+
 
 footer {
 /*     position: absolute;
