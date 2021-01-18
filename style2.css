@@ -291,3 +291,27 @@ footer .footer-nav ul li:not(:first-child) {
         min-width: 12rem;
     }
 }
+
+@media (max-width: 375px) {
+    main .search-field__enclosure {
+        width: 300px;
+    }
+    
+    main .logo img {
+        min-width: 10rem;
+    }
+    
+    main .clickable {
+        font-size: 12px;
+        padding: 0 13px;
+        height: 36px;
+        min-width: 50px;
+    }
+
+    main .langs {
+        width: fit-content;
+        margin: 0 auto;
+        font-size: small;
+        /* border: 1px solid black; */
+    }
+}
